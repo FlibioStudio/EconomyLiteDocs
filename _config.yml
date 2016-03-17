@@ -1,0 +1,9 @@
+# Site settings
+title: EconomyLite Docs
+description: >
+  The official wiki of the Sponge EconomyLite plugin.
+baseurl: "/EconomyLiteDocs"
+github_username:  FlibioStudio
+
+# Build settings
+markdown: kramdown
