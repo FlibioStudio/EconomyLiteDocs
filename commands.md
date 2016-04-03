@@ -40,3 +40,7 @@ Commands are essential to EconomyLite. Here is a list of commands and what they 
 `/vset <account> <amount>` **-** Sets the balance of a virtual account.
 
 **Permission:** `economylite.admin.virtual.set`
+
+`/migrate [<confirm>]` **-** Migrates EconomyLite data from `v1.X.X` to `v2.X.X`. Requires the old data files (`data.conf` and `businesses.conf` to exist).
+
+**Permission:** `economylite.admin.migrate`
