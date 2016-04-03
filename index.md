@@ -4,7 +4,12 @@ title: Home
 permalink: "/index.html"
 ---
 
-EconomyLite is a plugin made for [Sponge](https://spongepowered.org/). It is fully modular, with simple permissions and commands for ease of use. EconomyLite is fully released, but new releases are always being developed.
+[![Downloads](https://img.shields.io/github/downloads/flibio/EconomyLite/total.svg?style=flat-square)](https://github.com/Flibio/EconomyLite/releases)
+[![Issues](https://img.shields.io/github/issues/Flibio/EconomyLite.svg?style=flat-square)](http://www.github.com/Flibio/EconomyLite/issues/)
+[![Gitter](https://img.shields.io/badge/chat-on_gitter-3F51B5.svg?style=flat-square)](https://gitter.im/Flibio/EconomyLite)
+
+EconomyLite is a plugin made for [Sponge](https://spongepowered.org/). It is modular, with simple permissions and commands for ease of use.
+You may view the [EconomyLite thread](https://forums.spongepowered.org/t/economylite/7045) on the Sponge Forums to ask questions, or get more information.
 
 ### Features
 
@@ -13,25 +18,27 @@ EconomyLite is a plugin made for [Sponge](https://spongepowered.org/). It is ful
 - Multi-Threaded
   -  EconomyLite is multi-threaded for the best possible performance
 - Multiple Storage Options
-  - Store your data however you like, MySQL or on a local file
-- Modular
-  - Almost every aspect of EconomyLite can be changed to suit your needs
+  - Store your data however you like, locally or on a MySQL database
+- Customizable
+  - Much of EconomyLite can be changed to suit your needs
 - Username Change Support
   - Any player can change their name, and EconomyLite can handle it 
-- Businesses
-  - EconomyLite has full support for creating businesses
+- Virtual Management
+  - EconomyLite includes commands to manage virtual accounts
+- Multiple Currencies
+  - EconomyLite has built-in support for multiple currencies
 
 ### Developer API
 
-EconomyLite has a built-in API, but this will be removed soon. It is recommended that plugins utilize the [Sponge Economy API](https://docs.spongepowered.org/en/plugin/economy/index.html).
+Plugins may utilize the [Sponge Economy API](https://docs.spongepowered.org/en/plugin/economy/index.html) to interact with EconomyLite.
 
 ### Downloads
 
-EconomyLite is available to download now! Grab the latest release [here](https://github.com/Flibio/EconomyLite/releases).
+EconomyLite is available to on [GitHub](https://github.com/Flibio/EconomyLite/releases).
 
 ### Issues & Bugs
 
-Having an issue with EconomyLite? Found a bug? Please report it to the issue tracker on GitHub [here](https://github.com/Flibio/EconomyLite/issues).
+If you have any issues with EconomyLite or have found a bug, please report it to the issue tracker on GitHub [here](https://github.com/Flibio/EconomyLite/issues).
 
 ### Statistics
 
