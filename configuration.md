@@ -3,68 +3,33 @@ layout: page
 title: Configuration
 ---
 
-Commands are essential to EconomyLite. Here is a list of commands and what they do:
+EconomyLite can be configured to meet your servers needs. All of the messages sent by the plugin can be customized.
+The configuration files can be found in the `config/economylite` folder. A list of configuration options can be found below.
 
-### Balance Commands
+### Main Configuration
 
-`/balance` **-** Shows the balance of your account.
+The main configuration file is called `config.conf`. The options are described below.
 
-**Permission:** `None`
+`default-balance` **-** The default balance a player receives when they first join the server. The default value is `0`.
 
-`/balance {business name}` **-** Shows the balance of a business. You must an owner of the business to use this command.
+`virt-default-balance` **-** The default balance a virtual account receives when it is created. The default value is `0`.
 
- **Permission:** `econ.business.balance`
+`modules.mysql` **-** Contains all of the configuration options for the MySQL module.
 
-`/playerbalance {player name}` **-** Gets the balance of another player. Works in the console.
+`modules.mysql.enabled` **-** Sets if the MySQL module is enabled or not.
 
- **Permission:** `econ.playerbalance`
+`modules.mysql.hostname` **-** The hostname of the MySQL server.
 
-### Administrative Commands
+`modules.mysql.port` **-** The port of the MySQL server.
 
-`/econ add|remove {amount} {player name}` **-** Add or removes currency from a player.
+`modules.mysql.database` **-** The database on the MySQL server.
 
-**Permission:** `econ.admin`
+`modules.mysql.username` **-** The username used to connect to the MySQL server.
 
-`/econ set {player name} {amount}` **-** Sets the balance of a player.
+`modules.mysql.password` **-** The password used to connnect to the MySQL server.
 
-**Permission:** `econ.admin`
+### Message Configuration
 
-### Pay Commands
-
-`/pay {amount} {player or business name}` - Pays a player/business from your account
-
-**Permission:** `econ.pay`
-
-`/paySpecified {type} {amount} {player or business name}` - Used solely by EconomyLite to detect when a player clicks on an option in chat.
-
-**Permission:** `econ.pay`
-
-### Business Commands
-
-`/business register {business name}` - Registers a new business under the specified name. Business names are allowed to have spaces in them.
- 
-**Permission:** `econ.business.register`
-
-`/business delete {business name}` - Deletes a business from EconomyLite. Upon deletion, the balance of the business will be split evenly among it's owners.
- 
-**Permission:** `econ.business.delete`
-
-`/business leave {business name}` - Allows a player to leave a business as an owner. If you are the sole owner the business will be deleted.
- 
-**Permission:** `econ.business.leave`
-
-`/business invite {player name} {business name}` - Invite someone to join your business as an owner. The player will receive a clickable  message in chat that will allow them to accept your invitation. 
- 
-**Permission:** `econ.business.invite`
-
-`/business inviteAccept {business name}` - This command is used solely by EconomyLite to detect when a player accepts an invite to a business.
- 
-**Permission:** `econ.business.invite`
-
-`/business transfer {amount} {business name}` - Used to transfer money from a business to a player. You must be an owner of the business to run this command.
-
-**Permission:** `econ.business.transfer`
-
-`/business owners {business name}` - Used to view the owners of a business. You must be an owner of the business to run this command.
- 
-**Permission:** `econ.business.owners`
+The message configuration file is called `messages.conf`. It is used to customize every message sent be EconomyLite. To
+customize a message, simply replace the text found after the message name. Feel free to include colors in the message
+using the `&` formatting code. (Example: `&c` is equal to red)
