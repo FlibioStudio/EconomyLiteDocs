@@ -15,7 +15,7 @@ Commands are essential to EconomyLite. Here is a list of commands and what they 
 
 **Permission:** `economylite.pay`
 
-`/baltop` **-** Shows the balance of the top three players.
+`/baltop [<page>]` **-** Shows the balance of the top three players. Include a page number to navigate between pages.
 
 **Permission:** `economylite.baltop`
 
