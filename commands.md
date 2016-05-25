@@ -37,7 +37,7 @@ Commands are essential to EconomyLite. Here is a list of commands and what they 
 
 **Permission:** `economylite.admin.virtual.balance`
 
-`/vecon set | add | remove <player> <amount>` **-** Adds, sets or removes currency from a virtual account.
+`/vecon set | add | remove <account> <amount>` **-** Adds, sets or removes currency from a virtual account.
 
 **Permissions:** `economylite.admin.virtual.set` : `economylite.admin.virtual.add` : `economylite.admin.virtual.remove`
 
