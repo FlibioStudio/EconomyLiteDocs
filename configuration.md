@@ -10,6 +10,8 @@ The configuration files can be found in the `config/economylite` folder. A list 
 
 The main configuration file is called `config.conf`. The options are described below.
 
+`debug-logging` **-** Sets whether or not EconomyLite will output debug log messages. The default value is `true`.
+
 `default-balance` **-** The default balance a player receives when they first join the server. The default value is `0`.
 
 `virt-default-balance` **-** The default balance a virtual account receives when it is created. The default value is `0`.
