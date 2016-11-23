@@ -15,6 +15,10 @@ Commands are essential to EconomyLite. Here is a list of commands and what they 
 
 **Permission:** `economylite.pay`
 
+`/payv <account> <amount>` **-** Pays a virtual account.
+
+**Permission:** `economylite.virtual.pay`
+
 `/baltop [<page>]` **-** Shows the balance of the top three players. Include a page number to navigate between pages.
 
 **Permission:** `economylite.baltop`
@@ -40,6 +44,10 @@ Commands are essential to EconomyLite. Here is a list of commands and what they 
 `/vecon set | add | remove <account> <amount>` **-** Adds, sets or removes currency from a virtual account.
 
 **Permissions:** `economylite.admin.virtual.set` : `economylite.admin.virtual.add` : `economylite.admin.virtual.remove`
+
+`/vpay <player> <amount>` **-** Pays a player from a virtual account.
+
+**Permissions:** `economylite.admin.virtual.pay`
 
 `/migrate [<confirm>]` **-** Migrates EconomyLite data from `v1.X.X` to `v2.X.X`. Requires the old data files (`data.conf` and `businesses.conf`) to be in the `config/EconomyLite` folder.
 
