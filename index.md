@@ -45,4 +45,4 @@ If you have any issues with EconomyLite or have found a bug, please report it to
 
 ### Statistics
 
-![EconomyLite Statistics](http://flibio.net/economylite/stats_img.php)
+![EconomyLite Statistics](http://i.mcstats.org/EconomyLite/Global+Statistics.png)
