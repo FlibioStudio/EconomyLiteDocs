@@ -16,7 +16,7 @@ The main configuration file is called `config.conf`. The options are described b
 
 `virt-default-balance` **-** The default balance a virtual account receives when it is created. The default value is `0`.
 
-`modules.mysql` **-** Contains all of the configuration options for the MySQL module.
+#### MySQL Module
 
 `modules.mysql.enabled` **-** Sets if the MySQL module is enabled or not.
 
@@ -29,6 +29,14 @@ The main configuration file is called `config.conf`. The options are described b
 `modules.mysql.username` **-** The username used to connect to the MySQL server.
 
 `modules.mysql.password` **-** The password used to connnect to the MySQL server.
+
+#### Loan Module
+
+`modules.loan.enabled **-** Sets if the loan module is enabled or not.
+
+`modules.loan.interest-rate **-** The interest rate loans are taken out at. It must be greater than or equal to 1.
+
+`modules.loan.max-loan-balance **-** The maximum loan balance a player can have at any given time.
 
 ### Message Configuration
 

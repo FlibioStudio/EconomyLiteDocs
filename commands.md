@@ -23,6 +23,24 @@ Commands are essential to EconomyLite. Here is a list of commands and what they 
 
 **Permission:** `economylite.baltop`
 
+#### Loan Module Commands
+
+`/loan` **-** The base loan command.
+
+**Permission:** `economylite.loan`
+
+`/loan balance` **-** Displays your current loan balance.
+
+**Permission:** `economylite.loan.balance`
+
+`/loan take <amount>` **-** Takes out a loan for the specified amount.
+
+**Permission:** `economylite.loan.take`
+
+`/loan pay <amount>` **-** Pays the given amount towards your loan balance.
+
+**Permission:** `economylite.loan.pay`
+
 ### Administrative Commands
 
 `/econ set | add | remove <player> <amount>` **-** Adds, sets or removes currency from a player.
