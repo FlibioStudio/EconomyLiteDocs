@@ -36,7 +36,8 @@ Plugins may utilize the [Sponge Economy API](https://docs.spongepowered.org/en/p
 
 ### Downloads
 
-EconomyLite is available to on [GitHub](https://github.com/Flibio/EconomyLite/releases).
+EconomyLite is available to download on [GitHub](https://github.com/Flibio/EconomyLite/releases). Development builds are
+available [here](http://continuum.flibio.net/project/EconomyLite).
 
 ### Issues & Bugs
 
