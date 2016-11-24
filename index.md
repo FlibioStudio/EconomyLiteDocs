@@ -25,6 +25,8 @@ You may view the [EconomyLite thread](https://forums.spongepowered.org/t/economy
   - Any player can change their name, and EconomyLite can handle it 
 - Virtual Management
   - EconomyLite includes commands to manage virtual accounts
+- Loans
+  - Players can take out loans if they are running short on money
 - Multiple Currencies
   - EconomyLite has built-in support for multiple currencies
 

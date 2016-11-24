@@ -3,7 +3,7 @@ layout: page
 title: Modules
 ---
 
-EconomyLite can has modules built in that can be enabled or disabled in the configuration file. The currently available
+EconomyLite has modules built in that can be enabled or disabled in the configuration file. The currently available
 modules are described below.
 
 ### Loan Module

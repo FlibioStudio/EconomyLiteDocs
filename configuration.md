@@ -32,11 +32,11 @@ The main configuration file is called `config.conf`. The options are described b
 
 #### Loan Module
 
-`modules.loan.enabled **-** Sets if the loan module is enabled or not.
+`modules.loan.enabled` **-** Sets if the loan module is enabled or not.
 
-`modules.loan.interest-rate **-** The interest rate loans are taken out at. It must be greater than or equal to 1.
+`modules.loan.interest-rate` **-** The interest rate loans are taken out at. It must be greater than or equal to 1.
 
-`modules.loan.max-loan-balance **-** The maximum loan balance a player can have at any given time.
+`modules.loan.max-loan-balance` **-** The maximum loan balance a player can have at any given time.
 
 ### Message Configuration
 
