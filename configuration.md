@@ -12,6 +12,9 @@ The main configuration file is called `config.conf`. The options are described b
 
 `debug-logging` **-** Sets whether or not EconomyLite will output debug log messages. The default value is `true`.
 
+`notify-on-admin-commands` **-** Sets whether or not EconomyLite will notify the player when their balance is modified
+via the `/econ` commands. The default value is `false`.
+
 `default-balance` **-** The default balance a player receives when they first join the server. The default value is `0`.
 
 `virt-default-balance` **-** The default balance a virtual account receives when it is created. The default value is `0`.

@@ -3,6 +3,7 @@ layout: page
 title: Statistics
 ---
 
-EconomyLite utilizes [Statslite](https://github.com/Minecrell/statslite) to track plugin usage. The data can be viewed [here](http://mcstats.org/plugin/EconomyLite). You may opt out in the configuration file generated in `config/mcstats.properties`.
+EconomyLite utilizes [bStats](https://github.com/Minecrell/statslite) to track plugin usage. The data can be viewed
+[here](https://bstats.org/plugin/sponge/EconomyLite). You may opt out in the configuration file generated in `config/bStats/config.conf`.
 
 ![EconomyLite Statistics](http://flibio.net/economylite/stats_img.php)
