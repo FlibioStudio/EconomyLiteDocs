@@ -67,6 +67,11 @@ Commands are essential to EconomyLite. Here is a list of commands and what they 
 
 **Permissions:** `economylite.admin.virtual.pay`
 
-`/migrate [<confirm>]` **-** Migrates EconomyLite data from `v1.X.X` to `v2.X.X`. Requires the old data files (`data.conf` and `businesses.conf`) to be in the `config/EconomyLite` folder.
+`/migrate <mode> [<confirm>]` **-** Migrates data to EconomyLite.
+
+**Modes:**
+
+ - `economylite1` **-** EconomyLite data from `v1.X.X` to `v2.X.X`. Requires the old data files (`data.conf` and `businesses.conf`) to be in the `config/EconomyLite` folder.
+ - `totaleconomy` **-** TotalEconomy data to EconomyLite.
 
 **Permission:** `economylite.admin.migrate`
