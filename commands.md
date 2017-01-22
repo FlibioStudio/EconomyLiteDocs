@@ -41,6 +41,14 @@ Commands are essential to EconomyLite. Here is a list of commands and what they 
 
 **Permission:** `economylite.loan.pay`
 
+`/loan accept` **-** Accepts a loan offer.
+
+**Permission:** `economylite.loan.accept`
+
+`/loan deny` **-** Denies a loan offer.
+
+**Permission:** `economylite.loan.deny`
+
 ### Administrative Commands
 
 `/econ set | add | remove <player> <amount>` **-** Adds, sets or removes currency from a player.
