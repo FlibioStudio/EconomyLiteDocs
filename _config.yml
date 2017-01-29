@@ -4,6 +4,8 @@ description: >
   The official wiki of the Sponge EconomyLite plugin.
 baseurl: "/EconomyLiteDocs"
 github_username:  FlibioStudio
+inception_year: 2016
+current_year: 2017
 
 # Build settings
 markdown: kramdown
