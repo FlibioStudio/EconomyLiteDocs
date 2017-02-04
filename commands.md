@@ -53,7 +53,7 @@ Commands are essential to EconomyLite. Here is a list of commands and what they 
 
 `/econ set | add | remove <player> <amount>` **-** Adds, sets or removes currency from a player.
 
-**Permissions:** `economylite.admin.econ.set` : `economylite.admin.econ.add` : `economylite.admin.econ.remove`
+**Permissions:** `economylite.admin.econ` : `economylite.admin.econ.set` : `economylite.admin.econ.add` : `economylite.admin.econ.remove`
 
 `/currency set | delete <currency>` **-**  Sets the current currency, deletes a currency, or or displays the currency currently being used by the server.
 
