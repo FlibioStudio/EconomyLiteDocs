@@ -41,6 +41,8 @@ via the `/econ` commands. The default value is `false`.
 
 `modules.loan.max-loan-balance` **-** The maximum loan balance a player can have at any given time.
 
+`modules.loan.debtor-perms` **-** A list of permissions a person with an active loan will be given or denied.
+
 ### Message Configuration
 
 The message configuration file is called `messages.conf`. It is used to customize every message sent be EconomyLite. To
