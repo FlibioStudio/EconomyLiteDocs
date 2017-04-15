@@ -55,6 +55,10 @@ Commands are essential to EconomyLite. Here is a list of commands and what they 
 
 **Permissions:** `economylite.admin.econ` : `economylite.admin.econ.set` : `economylite.admin.econ.add` : `economylite.admin.econ.remove`
 
+`/econ setall <amount>` **-** Sets the balance of every player on the server.
+
+**Permissions:** `economylite.admin.econ.setall` (Also requires `economylite.admin.econ`)
+
 `/currency set | delete <currency>` **-**  Sets the current currency, deletes a currency, or or displays the currency currently being used by the server.
 
 **Permissions:** `economylite.admin.currency` : `economylite.admin.currency.set` : `economylite.admin.currency.delete`

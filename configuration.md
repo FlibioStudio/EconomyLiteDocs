@@ -15,6 +15,9 @@ The main configuration file is called `config.conf`. The options are described b
 `notify-on-admin-commands` **-** Sets whether or not EconomyLite will notify the player when their balance is modified
 via the `/econ` commands. The default value is `false`.
 
+`confirm-offline-payments` **-** Sets whether or not EconomyLite will ask players to confirm payments if the receiver is
+offline.
+
 `default-balance` **-** The default balance a player receives when they first join the server. The default value is `0`.
 
 `virt-default-balance` **-** The default balance a virtual account receives when it is created. The default value is `0`.
