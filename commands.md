@@ -85,5 +85,6 @@ Commands are essential to EconomyLite. Here is a list of commands and what they 
 
  - `economylite1` **-** EconomyLite data from `v1.X.X` to `v2.X.X`. Requires the old data files (`data.conf` and `businesses.conf`) to be in the `config/EconomyLite` folder.
  - `totaleconomy` **-** TotalEconomy data to EconomyLite.
+ - `tomysql` **-** EconomyLite H2 data to EconomyLite MySQL data. Requires MySQL to be enabled at the time of migration.
 
 **Permission:** `economylite.admin.migrate`
