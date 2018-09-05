@@ -10,7 +10,7 @@ The configuration files can be found in the `config/economylite` folder. A list 
 
 The main configuration file is called `config.conf`. The options are described below.
 
-`debug-logging` **-** Sets whether or not EconomyLite will output debug log messages. The default value is `true`.
+`debug-logging` **-** Sets whether or not EconomyLite will output debug log messages. The default value is `false`.
 
 `notify-on-admin-commands` **-** Sets whether or not EconomyLite will notify the player when their balance is modified
 via the `/econ` commands. The default value is `false`.
