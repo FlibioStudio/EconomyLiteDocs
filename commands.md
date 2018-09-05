@@ -88,3 +88,7 @@ Commands are essential to EconomyLite. Here is a list of commands and what they 
  - `tomysql` **-** EconomyLite H2 data to EconomyLite MySQL data. Requires MySQL to be enabled at the time of migration.
 
 **Permission:** `economylite.admin.migrate`
+
+`/ecorefresh` **-** Clears the local balance cache, causing balances to be pulled from the database.
+
+**Permissions:** `economylite.admin.refresh`
